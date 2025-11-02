@@ -30,3 +30,45 @@ My n8n RAG workflow searches Supabase for relevant information from the subject 
 Google Gemini processes the context and sends accurate answers back to WhatsApp or telegram.
 
 
+
+PROJECT NO. 03
+
+
+Multilingual speech to text
+
+I built a multilingual transcribing automation system.
+
+What This Project Does
+
+Multilingual transcribing System: Uses speeches delivered in schools, colleges and university then transcribe it to text and also can translate to any language then stored in supabase vector store .
+
+Used the speeches as the primary data source for transcribing and translation.
+
+
+Built with n8n: Created the entire Transcribing automation visually using n8n work flow tool.
+
+Audio file uploader: Used audio file uploader as a trigger.
+
+Google gemini transcriber : used google gemini transcribe to covert speech to text.
+
+Google doc: Used google doc to save transcribed text.
+
+Google translator: used google translator to translate text to any language
+
+How It Works
+
+upload audio file to file uploader
+
+google gemini transcribe the audio into text
+
+google translator translate the text from one language to other
+
+google docs save the text after transcribe or translate.
+
+Supabase vector store: vectorize the text through google gemini embedding module and store the data
+
+
+
+
+
+
