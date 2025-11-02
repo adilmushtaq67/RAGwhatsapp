@@ -1,5 +1,8 @@
 PROJECT NO. 01 & 02
+
+
 WhatsApp and Telegram RAG AI Agent
+
 I built a RAG (Retrieval-Augmented Generation) AI assistant that answers questions regarding their subject, topic and chapter in WhatsApp.
 
 What This Project Does
